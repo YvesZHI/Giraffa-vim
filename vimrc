@@ -92,6 +92,7 @@ if exists('Giraffa')
     Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
     Plugin 'Yggdroot/indentLine'
     Plugin 'jiangmiao/auto-pairs'
+    Plugin 'tpope/vim-repeat'
     Plugin 'YvesZHI/vim-code-dark'
     Plugin 'sebdah/vim-delve'
     Plugin 'YvesZHI/killersheep'
