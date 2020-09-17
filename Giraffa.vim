@@ -29,6 +29,7 @@ set rtp+=~/.vim/bundle/YouCompleteMe "YCM is installed with some error, so Vundl
 
 autocmd BufWinLeave * silent! TlistClose
 autocmd VimEnter * NERDTree
+autocmd VimEnter * execute "let g:projectPath = expand('%:p:h')"
 autocmd VimEnter * execute "normal j"
 autocmd VimEnter * execute "call DeleteBufferImg()"
 function! BufferDelete(id)
