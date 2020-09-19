@@ -83,7 +83,7 @@ similar shortcuts: `\"` and `\\"`, `\(` and `\\(`, `\[` and `\\[`, `\{` and `\\{
 `<C-o>`: go backword<br>
 `<C-i>`: go forward<br>
 
-`:DlvDebug<CR>`: run dlv<br>
+`:GoDebugStart .<CR>`: run debugger of vim-go<br>
 
 To get more information about usage, click on the links at the References below.
 
@@ -106,7 +106,6 @@ https://github.com/Yggdroot/indentLine<br>
 https://github.com/jiangmiao/auto-pairs<br>
 https://github.com/tpope/vim-repeat<br>
 https://github.com/YvesZHI/vim-code-dark<br>
-https://github.com/sebdah/vim-delve<br>
 https://github.com/YvesZHI/killersheep<br>
 https://github.com/goproxy/goproxy.cn<br>
 https://codeyarns.com/2015/03/18/how-to-test-color-setup-in-vim
