@@ -71,6 +71,10 @@ inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
 nnoremap + <C-w>>
 nnoremap - <C-w><
 
+noremap x "_x
+noremap s "_s
+vnoremap p "_dP
+
 command Qt tabclose
 
 if exists('Giraffa')
