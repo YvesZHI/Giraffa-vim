@@ -27,6 +27,7 @@ set rtp+=~/.vim/bundle/YouCompleteMe "YCM is installed with some error, so Vundl
 "    autocmd! BufReadPost ~/.vim/banner.txt setlocal readonly
 "augroup END
 
+autocmd BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>120v.\+', -1)
 autocmd BufWinLeave * silent! TlistClose
 autocmd VimEnter * NERDTree
 autocmd VimEnter * execute "let g:projectPath = expand('%:p:h')"
