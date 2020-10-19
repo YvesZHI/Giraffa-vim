@@ -89,7 +89,8 @@ if exists('Giraffa')
 
     " options
     "Plugin 'Valloric/YouCompleteMe'
-    Plugin 'scrooloose/nerdtree'
+    Plugin 'preservim/nerdtree' |
+                \ Plugin 'Xuyuanp/nerdtree-git-plugin'
     Plugin 'fatih/vim-go'
     Plugin 'ctrlpvim/ctrlp.vim'
     Plugin 'scrooloose/nerdcommenter'
